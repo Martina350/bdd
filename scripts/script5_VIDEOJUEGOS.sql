@@ -44,3 +44,9 @@ between '90' and '100'
 
 select*from videojuegos 
 where descripcion is null
+
+select*from videojuegos 
+where valoracion > '90'
+
+update videojuegos set descripcion='mejor puntuado'
+where valoracion > '90'
