@@ -53,3 +53,9 @@ between '07:00' and '14:00'
 
 select*from registros_entrada
 where hora > '8:00'
+
+select*from registros_entrada
+where fecha = '05/08/2004'  
+
+update registros_entrada set cedula_empleado='082345679' 
+where fecha = '05/08/2004'  
