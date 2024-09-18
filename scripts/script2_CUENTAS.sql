@@ -37,4 +37,20 @@ values('95147','17526','16/06/2024',125.35)
 insert into cuentas(numero_cuenta,cedula_propietario,fecha_creacion,saldo)
 values('48265','17853','19/04/2024',20.15)
 
+insert into cuentas(numero_cuenta,cedula_propietario,fecha_creacion,saldo)
+values('30302','17141','18/09/2024',14.15)
+
+insert into cuentas(numero_cuenta,cedula_propietario,fecha_creacion,saldo)
+values('52526','17889','08/07/2024',16.75)
+
 select*from cuentas
+
+select numero_cuenta, saldo from cuentas 
+
+select*from cuentas
+where fecha_creacion >= '18/09/2024'
+and fecha_creacion <= '20/08/2024'
+
+select numero_cuenta, saldo from cuentas
+where fecha_creacion >= '26/05/2024'
+and fecha_creacion <= '14/03/2024'
