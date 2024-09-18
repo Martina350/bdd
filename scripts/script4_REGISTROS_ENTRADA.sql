@@ -37,4 +37,19 @@ values('24875','1779964112','17/11/2019','22:40')
 insert into registros_entrada(codigo_registro,cedula_empleado,fecha,hora)
 values('64789','0960035847','21/10/2024','20:51')
 
+insert into registros_entrada(codigo_registro,cedula_empleado,fecha,hora)
+values('44558','1718192536','20/02/2024','07:51')
+
+insert into registros_entrada(codigo_registro,cedula_empleado,fecha,hora)
+values('58289','1745545658','28/02/2024','08:54')
+
 select*from registros_entrada
+
+select cedula_empleado,fecha,hora from registros_entrada 
+
+select*from registros_entrada
+where hora 
+between '07:00' and '14:00'
+
+select*from registros_entrada
+where hora > '8:00'
