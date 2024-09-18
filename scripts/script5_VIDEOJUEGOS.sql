@@ -22,6 +22,18 @@ values ('035','clash royal','videojuego de estrategia','100')
 insert into videojuegos(codigo,nombre,descripcion,valoracion)
 values ('048','fall guys','videojuego de plataformas y battle royale','85')
 
+insert into videojuegos(codigo,nombre,valoracion)
+values ('052','five nights at freddys','95')
+
+insert into videojuegos(codigo,nombre,valoracion)
+values ('055','geometry dash','98')
+
+insert into videojuegos(codigo,nombre,valoracion)
+values ('061','the last of us','94')
+
+select codigo,nombre,valoracion from videojuegos
+
 select*from videojuegos
+
 
 
