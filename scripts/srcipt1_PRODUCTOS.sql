@@ -22,6 +22,9 @@ values (85,'leche tony','bebida sabor chocolate',0.50,100)
 insert into productos (codigo,nombre,descripcion,precio,stock)
 values (19,'kinder huevo','chocolate kinder',2.50,335)
 
+insert into productos (codigo,nombre,descripcion,precio,stock)
+values (154,'quaker','avenas y cereales',2.02,128)
+
 insert into productos (codigo,nombre,precio,stock)
 values (789,'tomate',0.30,488)
 
@@ -31,5 +34,17 @@ values (740,'manzana',0.30,334)
 insert into productos (codigo,nombre,precio,stock)
 values (722,'cilantro',0.15,89)
 
+insert into productos (codigo,nombre,precio,stock)
+values (332,'queso',1.30,330)
+
 select codigo,nombre,precio,stock from productos
 select*from productos
+
+select*from productos
+where nombre like 'q%'
+
+select*from productos
+where descripcion is null
+
+select*from productos
+where precio between money(2) and money(3)
