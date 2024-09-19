@@ -58,4 +58,9 @@ select*from registros_entrada
 where fecha = '05/08/2004'  
 
 update registros_entrada set cedula_empleado='082345679' 
-where fecha = '05/08/2004'  
+where fecha = '05/08/2004'
+
+delete from	registros_entrada
+where fecha >= '20/02/2024' and fecha <= '28/02/2024'
+
+select*from registros_entrada
