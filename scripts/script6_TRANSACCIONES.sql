@@ -50,3 +50,13 @@ between money(200) and money(2000)
 
 select codigo,monto,tipo,fecha from transacciones
 where fecha is not null
+
+select*from transacciones
+where monto>money(100) and monto<money(500) 
+and fecha between '01/08/2024' and '31/08/2024' 
+and hora between '14:00' and '20:00'
+
+update transacciones set tipo='T'
+where monto>money(100) and monto<money(500) 
+and fecha between '01/08/2024' and '31/08/2024' 
+and hora between '14:00' and '20:00'
