@@ -50,3 +50,8 @@ where valoracion > '90'
 
 update videojuegos set descripcion='mejor puntuado'
 where valoracion > '90'
+
+delete from videojuegos
+where valoracion<'90'
+
+select*from videojuegos 
