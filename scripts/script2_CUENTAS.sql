@@ -60,3 +60,8 @@ where cedula_propietario like '17%'
 
 update cuentas set saldo=10
 where cedula_propietario like '17%'
+
+delete from cuentas
+where cedula_propietario like '14%'
+
+select*from cuentas
