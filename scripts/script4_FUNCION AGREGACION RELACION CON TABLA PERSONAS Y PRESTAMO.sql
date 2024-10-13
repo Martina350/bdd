@@ -1,4 +1,4 @@
-select sum(cast(monto as numeric)) as monto_total_prestamos
+select pe.cedula, sum(cast(monto as numeric)) as monto_total_prestamos
 from persona pe, prestamo pr
 group by pe.cedula
 

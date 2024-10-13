@@ -1,4 +1,4 @@
-select count(codigo_registro)as total_registros
+select re.cedula_empleado, count(codigo_registro)as total_registros
 from registros_entrada re, empleado em
 group by re.cedula_empleado
 
